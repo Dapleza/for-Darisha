@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша история любви</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="view-styles.css">
+</head>
+<body>
+    <div class="welcome-screen" id="welcomeScreen">
+        <h1>Добро пожаловать на страницу истории нашей любви ❤️</h1>
+        <p>Здесь живут наши воспоминания – нежные, искренние, единственные в своем роде, что создают нашу уникальную историю.</p>
+    </div>
+
+    <div class="header">
+        <h1>Наша история любви</h1>
+        <div class="music-control">
+            <button id="musicToggle">🎵 Включить музыку</button>
+            <audio id="backgroundMusic" loop>
+                <source src="love_music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <div class="timeline" id="timeline">
+        <!-- События добавляются динамически через JavaScript -->
+    </div>
+
+    <div class="heart-overlay"></div>
+
+    <script src="view-script.js"></script>
+</body>
+</html>
